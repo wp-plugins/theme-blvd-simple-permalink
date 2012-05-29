@@ -1,7 +1,7 @@
 === Theme Blvd Simple Permalink ===
 Contributors: themeblvd
 Tags: themeblvd, permalink, URL
-Requires at least: 3.2
+Requires at least: 3.0
 Stable tag: 1.0.0
 
 This plugin retrieve the permalink URL for a page or post based on the ID with the shortcode [permalink].
@@ -14,7 +14,7 @@ This plugin retrieve the permalink URL for a page or post based on the ID with t
 
 In creating my own sites with WordPress, I started noticing that I like to link to articles within other articles. Then I'm always changing my mind about stuff, messing around with page/post slugs, and screwing with my permalinks. It's very annoying to then have to go back and change links whereever I placed them.
 
-This plugin is about as simple as it gets; it's literally about 4 lines of code. It just retieves the URL of a page or post based on WordPress's unique, numerical ID for it, which never changes. For me personally, using the [permalink] shortcode every time I link to another page or post within my site makes life easier because I don't 
+This plugin is about as simple as it gets; it's literally three lines of code. It just retieves the URL of a page or post based on WordPress's unique, numerical ID for it, which never changes. For me personally, using the [permalink] shortcode every time I link to another page or post within my site makes life easier because I don't have to worry about the URL changing. Also, when I move my site from my local dev server to the live web server, I don't have to worry about any of these links.
 
 Anyways, I thought what the heck, why not share? -- I keep pasting this code snippet in all my personal website themes anyway. 
 
