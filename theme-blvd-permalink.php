@@ -50,7 +50,7 @@ function themeblvd_permalink_shortcode( $atts ) {
     
     // If we have a post ID, get the permalink
     if( $id )
-    	$output = get_permalink( $post_id ); 
+    	$output = get_permalink( $id ); 
     
     return $output;
 }
