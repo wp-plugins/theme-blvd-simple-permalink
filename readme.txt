@@ -34,13 +34,15 @@ Since all this plugin does is retrieve the URL to the post or page, you need to 
 
 In v1.0.1, I added the optional feature to allow you to use a page's slug to reference the permalink you're trying to retrieve.
 
-`a href="[permalink slug="your-page"]">Your Text</a>`
+`<a href="[permalink slug="your-page"]">Your Text</a>`
 
 If you're referencing anything other than a page, you need to specify the post type with the optional "post_type" parameter.
 
 `<a href="[permalink slug="your-post" post_type="post"]">Your Text</a>`
 
-*Note: This probably seems kind of weird. Why not just always use the ID? Well personally, I added this in for myself. When I setup demo websites for my WordPress themes, I'm always importing many of the same pages that innerlink with eachother. As you know, when importing pages and posts between different websites, ID's will generally change. By using this shortcode and referencing page/post slugs, I can keep URL's intact when I'm importing/exporting pages to different websites.*
+**If you can use the Post ID, it will consume less resources on your server to retrieve the permalinks that way.**
+
+So why use the slug at all? Why not just always use the ID? Well personally, I added this in for myself. When I setup demo websites for my WordPress themes, I'm always importing many of the same pages that innerlink with eachother. As you know, when importing pages and posts between different websites, ID's will generally change. By using this shortcode and referencing page/post slugs, I can keep URL's intact when I'm importing/exporting pages to different websites.
 
 == Installation ==
 
