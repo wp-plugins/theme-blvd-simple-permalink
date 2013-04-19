@@ -1,4 +1,4 @@
-=== Theme Blvd Simple Permalink ===
+=== Simple Permalink ===
 Contributors: themeblvd
 Tags: themeblvd, permalink, URL
 Requires at least: 3.0
